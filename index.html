@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+
+  <div class="container">
+    <div class="main">
+      <div class="left">
+        <h1>Stay updated!</h1>
+        <p class="main_text">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg><p class="ul_p">Product discovery and building what matters</p></li>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg><p class="ul_p">Measuring to ensure updates are a success</p></li>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg><p class="ul_p">And much more!</p></li>
+        </ul>
+  
+        <form class="form">
+          <div class="form_pp">
+            <p class="form_Email">Email address</p>
+            <p class="form_Valid">Valid email requered</p>
+          </div>
+          
+          <input class="input" type="text" placeholder="email@company.com">
+          <button class="btn">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+    </div>
+    <div class="right_img"></div>
+  </div>
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+
+  <div class="modal_window">
+    <img class="modal_window_img" src="./assets/images/icon-list.svg" height="50px" alt="">
+    <div class="modal_window_main">
+      
+      <h2 class="modal_window_h2">Thanks for subscribing!</h2>
+      <p class="modal_window_p">A confirmation email has been sent to <span class="modal_window_span">ash@loremcompany.com. </span>
+        Please open it and click the button inside to confirm your subscription.</p>
+      <button class="modal_window_button">Dismiss message</button>
+    </div>
+  </div>
+  <!-- Success message end -->
+
+  <script src="./index.js"></script>
+</body>
+</html>

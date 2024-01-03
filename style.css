@@ -19,7 +19,8 @@ p,h1,h2{
     width: 920px;
     background-color: white;
     border-radius: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 li {
@@ -29,7 +30,6 @@ li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    margin-bottom: 10px;
 }
 .ul_p{
     margin: 0;
@@ -41,7 +41,6 @@ li {
 }
 
 .right_img{
-    margin-top: 20px;
     width: 400px;
     height: 593px;
     background-image: url('./assets/images/illustration-sign-up-desktop.svg');
